@@ -12,11 +12,13 @@ var mycomputer = document.getElementById("mycomputer");
 var trashbin = document.getElementById("trashbin");
 var explorer = document.getElementById("explorer");
 var controlpanel = document.getElementById("controlpanel");
+var chilledwindows = document.getElementById("chilledwindows");
 
 dragElement(mycomputer);
 dragElement(trashbin);
 dragElement(explorer);
 dragElement(controlpanel);
+dragElement(chilledwindows);
 
 
 function dragElement(elmnt) {
