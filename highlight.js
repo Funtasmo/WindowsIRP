@@ -2,7 +2,8 @@ var mycomputer = document.getElementById("mycomputer");
 var trashbin = document.getElementById("trashbin");
 var explorer = document.getElementById("explorer");
 var controlpanel = document.getElementById("controlpanel");
-var elements = [mycomputer,trashbin,explorer,controlpanel]
+var chilledwindows = document.getElementById("chilledwindows");
+var elements = [mycomputer,trashbin,explorer,controlpanel,chilledwindows]
 function clicked(element){
   elements.forEach(function(el){
     el.style.backgroundColor = 'rgba(19, 128, 128, 0)';
